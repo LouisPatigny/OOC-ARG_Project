@@ -5,30 +5,26 @@
     height: 100vh;
 }
 
+/* General container styling */
 .container {
-    width: 80%;
     padding: 20px;
+    text-align: center;
 }
 
+/* Heading styling */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Audio list styling */
 .audio-list {
-    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 audio {
-    display: block;
-    margin: 10px auto;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #0b0b0b;
-    border: 2px solid #222;
-    border-radius: 5px;
-    color: ghostwhite;
-    cursor: pointer;
-    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-}
-
-button:hover {
-    filter: brightness(1.2);
+    margin-bottom: 10px;
+    width: 80%;
 }

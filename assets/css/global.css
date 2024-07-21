@@ -134,6 +134,7 @@ body::-webkit-scrollbar-thumb {
 
 #scroll-to-top:not(:disabled):hover img {
     filter: brightness(0.8); /* Darken on hover if not disabled */
+    transform: scale(1.1);
 }
 
 /* Styling for the back to desktop button */
@@ -159,5 +160,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .back-to-desktop:hover {
-    filter: brightness(1.2);
+    filter: brightness(0.8);
+    transform: scale(1.1);
 }
