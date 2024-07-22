@@ -57,7 +57,8 @@ function checkSentence() {
             typeText(newTextElement, 'Access in progress', () => {
                 animateDots(newTextElement); // Start the dots animation
                 setTimeout(() => {
-                    window.location.href = 'desktop.html'; // Replace with your new page URL
+                    session.set('imagesUnlocked', 'true');
+                    window.location.href = './images-folder.html'; // Replace with your new page URL
                 }, 5000); // Adjust the delay before redirecting
             });
         }, 3000);

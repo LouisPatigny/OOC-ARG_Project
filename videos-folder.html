@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Videos Folder</title>
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/videos-folder.css">
+    <script src="./assets/js/common.js" defer></script>
+    <script src="./assets/js/videos-folder.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <div class="left-panel">
+        <img src="./assets/images/seal.jpg" alt="Seal" id="seal-image">
+        <h1 id="textA">OBSIDIAN</h1>
+        <h1 id="textB">ARCHIVE</h1>
+    </div>
+    <div class="video-player-container">
+        <video controls class="video-player" id="main-video">
+            <source src="./assets/videos/overthrone.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <ul class="video-list">
+            <li data-video="./assets/videos/sample1.mp4">Video 1</li>
+            <li data-video="./assets/videos/sample2.mp4">Video 2</li>
+            <li data-video="./assets/videos/sample3.mp4">Video 3</li>
+        </ul>
+    </div>
+</div>
+<button id="back-button" class="back-to-desktop">
+    <img src="./assets/images/noun-back.png" alt="Back-to-Desktop Button">
+</button>
+</body>
+</html>

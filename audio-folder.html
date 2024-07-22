@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Audio</title>
+    <title>Audio Files</title>
     <link rel="stylesheet" href="./assets/css/global.css">
     <link rel="stylesheet" href="./assets/css/audio-folder.css">
     <script src="./assets/js/common.js" defer></script>
@@ -10,20 +10,72 @@
 </head>
 <body>
 <div class="container">
-    <h1>Audio Files</h1>
-    <div class="audio-list">
-        <audio controls>
-            <source src="audio/file1.mp3" type="audio/mp3">
-            Your browser does not support the audio element.
-        </audio>
-        <audio controls>
-            <source src="audio/file2.mp3" type="audio/mp3">
-            Your browser does not support the audio element.
-        </audio>
-        <audio controls>
-            <source src="audio/file3.mp3" type="audio/mp3">
-            Your browser does not support the audio element.
-        </audio>
+    <img src="./assets/images/seal.jpg" alt="Seal" id="seal-image">
+    <h1 id="textA">OBSIDIAN</h1>
+    <h1 id="textB">ARCHIVE</h1>
+    <div class="audio-player-container">
+        <div class="audio-item">
+            <p class="audio-title">05410</p>
+            <audio controls class="audio-player" id="audio1">
+                <source src="./assets/audio/audiofile1.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-item">
+            <p class="audio-title">09377</p>
+            <audio controls class="audio-player" id="audio2">
+                <source src="./assets/audio/audiofile2.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-item">
+            <p class="audio-title">01083</p>
+            <audio controls class="audio-player" id="audio3">
+                <source src="./assets/audio/audiofile3.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-item">
+            <p class="audio-title">01083</p>
+            <audio controls class="audio-player" id="audio4">
+                <source src="./assets/audio/audiofile4.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-item">
+            <p class="audio-title">01083</p>
+            <audio controls class="audio-player" id="audio5">
+                <source src="./assets/audio/audiofile5.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-item">
+            <p class="audio-title">01083</p>
+            <audio controls class="audio-player" id="audio6">
+                <source src="./assets/audio/audiofile6.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-item">
+            <p class="audio-title">01083</p>
+            <audio controls class="audio-player" id="audio7">
+                <source src="./assets/audio/audiofile7.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <div class="audio-item">
+            <p class="audio-title">01083</p>
+            <audio controls class="audio-player" id="audio8">
+                <source src="./assets/audio/audiofile8.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </div>
+    <div class="audio-info-container" id="audio-info">
+        <div class="audio-info">
+            <div class="transcript-container" id="transcript-container">
+            </div>
+        </div>
     </div>
 </div>
 <button id="back-button" class="back-to-desktop">

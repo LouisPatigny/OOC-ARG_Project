@@ -67,7 +67,7 @@
                     redirectUrl = './page_4.html'; // Example URL
                     break;
                 case 'folder1':
-                    redirectUrl = './page_3.html'; // Example URL
+                    redirectUrl = session.get('imagesUnlocked') === 'true' ? './images-folder.html' : './page_4.html';
                     break;
                 case 'folder2':
                     redirectUrl = session.get('videosUnlocked') === 'true' ? './videos-folder.html' : './page_2.html';
