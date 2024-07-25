@@ -1,0 +1,119 @@
+/* General body styling */
+body {
+    background-color: black;
+    color: ghostwhite;
+    margin: 0;
+    overflow-y: scroll; /* Ensures a single scrollbar */
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+}
+
+/* Content styling */
+.content {
+    width: 80%;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+/* Updated number-references styling */
+.number-references {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    position: absolute;
+    right: 355px;
+    top: 80px;
+    text-align: left;
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+
+#password-button {
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    right: 120px;
+    top: 250px;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #0b0b0b;
+    border: 2px solid #222;
+    border-radius: 5px;
+    color: ghostwhite;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+#password-button:hover {
+    filter: brightness(1.2);
+}
+
+#chapter-select {
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    right: 120px;
+    top: 303px;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0b0b0b;
+    border: 2px solid #222;
+    border-radius: 5px;
+    color: ghostwhite;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Seal image styling */
+#seal-image {
+    position: absolute;
+    right: 110px;
+    top: 60px;
+    display: block;
+    margin: 20px auto;
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Title content styling */
+.title-content {
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    text-align: left;
+}
+
+#main-title {
+    font-size: 90px;
+}
+
+#main-title2 {
+    position: absolute;
+    top: 140px;
+    left: 220px;
+    font-size: 45px;
+}
+
+#sub-title {
+    position: absolute;
+    top: 225px;
+    left: 270px;
+    font-size: 34px;
+}
+
+#sub-title2 {
+    position: absolute;
+    top: 290px;
+    left: 180px;
+    font-size: 28px;
+}
+
+.book-content {
+    margin-top: 450px;
+    padding: 20px;
+    color: ghostwhite;
+}
+
+.book-content h2, .book-content h3, .book-content p, .book-content h4 {
+    color: ghostwhite;
+}

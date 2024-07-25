@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fake Desktop</title>
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/desktop.css">
+    <script src="./assets/js/common.js" defer></script>
+    <script src="./assets/js/desktop.js" defer></script>
+</head>
+<body>
+<div id="desktop">
+    <div class="icon" id="icon1">
+        <img src="./assets/images/desktop-icons/recycle_bin_full_cool-0.png" alt="Recycle Bin">
+        <p>Recycle Bin</p>
+    </div>
+    <div class="folder" id="folder1">
+        <img src="./assets/images/desktop-icons/directory_closed-4.png" alt="Images Folder">
+        <p>Images</p>
+    </div>
+    <div class="folder" id="folder2">
+        <img src="./assets/images/desktop-icons/directory_closed-4.png" alt="Videos Folder">
+        <p>Videos</p>
+    </div>
+    <div class="folder" id="folder3">
+        <img src="./assets/images/desktop-icons/directory_closed-4.png" alt="Audio Folder">
+        <p>Audio</p>
+    </div>
+</div>
+<div id="taskbar">
+    <div id="start-button">
+        <img src="./assets/images/desktop-icons/windows-0.png" alt="Start">
+    </div>
+    <div id="taskbar-items">
+        <!-- Taskbar items will appear here -->
+    </div>
+    <div id="clock">
+        <p>12:00 PM</p>
+    </div>
+</div>
+<div id="recycle-bin-modal" class="modal">
+    <img src="./assets/images/chartreuseduck.jpg" alt="Duck Image">
+    <button id="invisible-button"></button>
+    <div class="modal-text">Click on the tip of my nose</div>
+</div>
+<!-- Main Menu -->
+<div id="menu" class="hidden">
+    <div id="menu-content">
+        <h2>Game Menu</h2>
+        <button id="resume">Resume</button>
+        <button id="quit">Quit</button>
+    </div>
+</div>
+</body>
+</html>
